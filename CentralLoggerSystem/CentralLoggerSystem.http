@@ -1,0 +1,6 @@
+@CentralLoggerSystem_HostAddress = http://localhost:5157
+
+GET {{CentralLoggerSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

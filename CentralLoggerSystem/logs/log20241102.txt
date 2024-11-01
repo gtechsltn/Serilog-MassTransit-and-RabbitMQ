@@ -1,0 +1,1366 @@
+2024-11-02 00:28:37.583 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:28:37.697 +06:00 [DBG] Hosting starting
+2024-11-02 00:28:37.897 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:28:38.032 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:28:38.039 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:28:38.161 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:28:38.368 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:28:38.370 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:28:38.371 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:28:38.373 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:28:38.374 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:28:38.375 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:28:38.425 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:28:38.427 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:28:38.428 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:28:38.429 +06:00 [DBG] Hosting started
+2024-11-02 00:28:38.822 +06:00 [DBG] Connection id "0HN7QKC0KQFEB" accepted.
+2024-11-02 00:28:38.825 +06:00 [DBG] Connection id "0HN7QKC0KQFEB" started.
+2024-11-02 00:28:38.831 +06:00 [DBG] Connection id "0HN7QKC0KQFEC" accepted.
+2024-11-02 00:28:38.833 +06:00 [DBG] Connection id "0HN7QKC0KQFEC" started.
+2024-11-02 00:28:38.863 +06:00 [DBG] Connection id "0HN7QKC0KQFEC" received FIN.
+2024-11-02 00:28:38.863 +06:00 [DBG] Connection id "0HN7QKC0KQFEB" received FIN.
+2024-11-02 00:28:38.874 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:28:38.874 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:28:38.926 +06:00 [DBG] Connection id "0HN7QKC0KQFEB" stopped.
+2024-11-02 00:28:38.926 +06:00 [DBG] Connection id "0HN7QKC0KQFEC" stopped.
+2024-11-02 00:28:38.932 +06:00 [DBG] Connection id "0HN7QKC0KQFEB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:28:38.932 +06:00 [DBG] Connection id "0HN7QKC0KQFEC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:28:39.049 +06:00 [DBG] Connection id "0HN7QKC0KQFED" accepted.
+2024-11-02 00:28:39.052 +06:00 [DBG] Connection id "0HN7QKC0KQFED" started.
+2024-11-02 00:28:39.088 +06:00 [DBG] Connection 0HN7QKC0KQFED established using the following protocol: "Tls13"
+2024-11-02 00:28:39.148 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:28:39.240 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:28:39.259 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:28:39.261 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:28:39.318 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:28:39.321 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:28:39.345 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:28:39.348 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:28:39.352 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 208.7428ms
+2024-11-02 00:28:39.360 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:28:39.360 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:28:39.382 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 22.0826ms
+2024-11-02 00:28:39.409 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.713ms
+2024-11-02 00:28:39.451 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:28:39.456 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:28:39.459 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:28:39.543 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.51ms
+2024-11-02 00:28:40.392 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55501)
+2024-11-02 00:28:40.422 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_nogyyyb6nknkurokbdqxieayfs?temporary=true"
+2024-11-02 00:28:40.434 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 0
+2024-11-02 00:28:40.456 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:28:40.463 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:28:40.467 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:28:40.508 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:28:40.550 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-JnUZ2BjZgAtBfVEHpnbROA
+2024-11-02 00:28:40.554 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:28:40.557 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:28:49.491 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:28:49.503 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:28:49.507 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:28:49.510 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:49.517 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:28:49.520 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:49.559 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:28:49.565 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:28:49.566 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:28:49.568 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:28:49.570 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:28:49.571 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:28:49.574 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:28:49.577 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:28:49.598 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:28:49.603 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:28:49.605 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:28:49.612 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000009": started reading request body.
+2024-11-02 00:28:49.615 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000009": done reading request body.
+2024-11-02 00:28:49.619 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:28:49.620 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:28:49.621 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:28:49.623 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:28:49.631 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:28:49.642 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:28:49.6368807Z"}
+2024-11-02 00:28:49.707 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:28:49.768 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-2212-08dcfaa307c6" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:28:49.781 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:28:49.787 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:28:49.788 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:28:49.788 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:28:49.790 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:28:49.791 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:28:49.800 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 222.4078ms
+2024-11-02 00:28:49.803 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:49.813 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 321.2796ms
+2024-11-02 00:28:50.421 +06:00 [DBG] Declare exchange: name: MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--, type: fanout, durable
+2024-11-02 00:28:50.440 +06:00 [DBG] Declare exchange: name: MassTransit:Fault, type: fanout, durable
+2024-11-02 00:28:50.442 +06:00 [DBG] Bind exchange: source: MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--, destination: MassTransit:Fault
+2024-11-02 00:28:50.484 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-04f8-08dcfaa30836" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:28:50.491 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-2212-08dcfaa307c6" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.5716231")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:28:50.543 +06:00 [DBG] Declare queue: name: example-queue_error, durable, consumer-count: 0 message-count: 0
+2024-11-02 00:28:50.563 +06:00 [DBG] Declare exchange: name: example-queue_error, type: fanout, durable
+2024-11-02 00:28:50.583 +06:00 [DBG] Bind queue: source: example-queue_error, destination: example-queue_error
+2024-11-02 00:28:53.308 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:28:53.314 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:28:53.315 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:28:53.318 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:53.320 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:28:53.321 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:53.323 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:28:53.327 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:28:53.328 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:28:53.330 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:28:53.332 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:28:53.334 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:28:53.336 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:28:53.338 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:28:53.341 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:28:53.359 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:28:53.363 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:28:53.365 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000B": started reading request body.
+2024-11-02 00:28:53.366 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000B": done reading request body.
+2024-11-02 00:28:53.367 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:28:53.369 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:28:53.370 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:28:53.371 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:28:53.374 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:28:53.378 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:28:53.3787011Z"}
+2024-11-02 00:28:53.384 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-cf0c-08dcfaa309fa" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:28:53.386 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:28:53.453 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:28:53.456 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:28:53.458 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-0235-08dcfaa30a06" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:28:53.459 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:28:53.463 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-cf0c-08dcfaa309fa" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0687181")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:28:53.463 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:28:53.471 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:28:53.473 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 136.9181ms
+2024-11-02 00:28:53.476 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:28:53.478 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 170.0105ms
+2024-11-02 00:29:07.391 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:29:07.396 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:29:07.397 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:29:07.399 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:07.401 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:29:07.403 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:07.404 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:29:07.407 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:29:07.408 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:29:07.410 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:29:07.413 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:29:07.415 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:29:07.417 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:07.419 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:07.420 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:07.422 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:29:07.423 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:29:07.424 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000D": started reading request body.
+2024-11-02 00:29:07.426 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000D": done reading request body.
+2024-11-02 00:29:07.429 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:29:07.431 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:07.433 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:07.434 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:07.436 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:29:07.437 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:29:07.4374447Z"}
+2024-11-02 00:29:07.441 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-c56a-08dcfaa3125b" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:29:07.443 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:29:07.481 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:29:07.507 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:29:07.509 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:29:07.511 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-61ed-08dcfaa31266" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:29:07.512 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:29:07.516 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-c56a-08dcfaa3125b" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0654584")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:29:07.517 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:29:07.525 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 108.1599ms
+2024-11-02 00:29:07.527 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:07.531 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 139.894ms
+2024-11-02 00:29:10.088 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:29:10.093 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.094 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.097 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.098 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:29:10.099 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.100 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:29:10.102 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:29:10.104 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:29:10.105 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:29:10.109 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:29:10.110 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:29:10.113 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.115 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.117 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.119 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:29:10.121 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:29:10.123 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000F": started reading request body.
+2024-11-02 00:29:10.125 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:0000000F": done reading request body.
+2024-11-02 00:29:10.127 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:29:10.129 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.130 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.131 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.133 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.134 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:29:10.1343579Z"}
+2024-11-02 00:29:10.138 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-4f84-08dcfaa313f7" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:29:10.171 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:29:10.200 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-f625-08dcfaa31400" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:29:10.202 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:29:10.203 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-4f84-08dcfaa313f7" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0600377")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:29:10.204 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:29:10.212 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:29:10.213 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:29:10.215 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:29:10.217 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 103.7747ms
+2024-11-02 00:29:10.218 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.219 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 131.3634ms
+2024-11-02 00:29:10.736 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:29:10.740 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.742 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.744 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.745 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:29:10.746 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.747 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:29:10.749 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:29:10.751 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:29:10.753 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:29:10.756 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:29:10.758 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:29:10.761 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.762 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.763 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.765 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:29:10.766 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:29:10.769 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000011": started reading request body.
+2024-11-02 00:29:10.770 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000011": done reading request body.
+2024-11-02 00:29:10.772 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:29:10.773 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.776 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.777 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.779 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.781 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:29:10.7811996Z"}
+2024-11-02 00:29:10.784 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-fd21-08dcfaa31459" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:29:10.846 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:29:10.848 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-cec5-08dcfaa31463" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:29:10.850 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:29:10.852 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-fd21-08dcfaa31459" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0610549")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:29:10.853 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:29:10.861 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:29:10.863 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:29:10.865 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:29:10.867 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 106.7079ms
+2024-11-02 00:29:10.869 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.871 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 135.3817ms
+2024-11-02 00:29:10.913 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:29:10.918 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.921 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:29:10.928 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.931 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:29:10.933 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:10.934 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:29:10.936 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:29:10.939 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:29:10.942 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:29:10.944 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:29:10.945 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:29:10.947 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.948 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:10.950 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.951 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:29:10.953 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:29:10.955 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000013": started reading request body.
+2024-11-02 00:29:10.957 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000013": done reading request body.
+2024-11-02 00:29:10.959 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:29:10.962 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.963 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.964 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:10.966 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:29:10.967 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:29:10.9677215Z"}
+2024-11-02 00:29:10.973 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-8fe6-08dcfaa31476" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:29:11.017 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:29:11.035 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-6585-08dcfaa31480" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:29:11.036 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:29:11.039 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-8fe6-08dcfaa31476" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0601506")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:29:11.040 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:29:11.046 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:29:11.048 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:29:11.050 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:29:11.052 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 105.5472ms
+2024-11-02 00:29:11.054 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:11.055 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 143.3558ms
+2024-11-02 00:29:26.245 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogError - application/json 7
+2024-11-02 00:29:26.249 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogError'
+2024-11-02 00:29:26.251 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)' with route pattern 'api/Logging/LogError' is valid for the request path '/api/Logging/LogError'
+2024-11-02 00:29:26.253 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:26.255 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:29:26.256 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:29:26.258 +06:00 [INF] Route matched with {action = "LogError", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogError(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:29:26.262 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:29:26.263 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:29:26.265 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:29:26.267 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:29:26.268 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:29:26.270 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:26.271 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:29:26.273 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:26.275 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:29:26.277 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:29:26.279 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000015": started reading request body.
+2024-11-02 00:29:26.280 +06:00 [DBG] Connection id "0HN7QKC0KQFED", Request id "0HN7QKC0KQFED:00000015": done reading request body.
+2024-11-02 00:29:26.282 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:29:26.283 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:26.284 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:29:26.285 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:29:26.287 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:29:26.288 +06:00 [ERR] Publishing message: {"Level":"Error","Message":"Saila","Timestamp":"2024-11-01T18:29:26.2887567Z"}
+2024-11-02 00:29:26.297 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "140c0000-3e12-84a9-4975-08dcfaa31d98" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:29:31.358 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:30:11.507 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:30:11.533 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:30:11.547 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:30:11.590 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:30:11.591 +06:00 [DBG] SEND "rabbitmq://localhost/MassTransit:Fault--CentralLoggerSystem.Models:TextMessage--" "140c0000-3e12-84a9-60c0-08dcfaa33898" MassTransit.Fault<CentralLoggerSystem.Models.TextMessage>
+2024-11-02 00:30:11.597 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:30:11.598 +06:00 [ERR] R-FAULT "rabbitmq://localhost/example-queue" "140c0000-3e12-84a9-4975-08dcfaa31d98" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:45.2930602")
+System.InvalidOperationException: The ConnectionString property has not been initialized.
+   at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlConnection.Open(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.OpenAsync(CancellationToken cancellationToken)
+   at Dapper.SqlMapper.TryOpenAsync(IDbConnection cnn, CancellationToken cancel) in /_/Dapper/SqlMapper.Async.cs:line 399
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 661
+   at CentralLoggerSystem.Repositorys.LoggerRepository.AddLogsAsync(TextMessage message) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Repositorys\LoggerRepository.cs:line 24
+   at CentralLoggerSystem.Consumers.LogConsumer.Consume(ConsumeContext`1 context) in D:\TestProject\CentralLoggerSystem\CentralLoggerSystem\Consumers\LogConsumer.cs:line 23
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.DependencyInjection.ScopeConsumerFactory`1.Send[TMessage](ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/DependencyInjection/DependencyInjection/ScopeConsumerFactory.cs:line 22
+   at MassTransit.Middleware.ConsumerMessageFilter`2.MassTransit.IFilter<MassTransit.ConsumeContext<TMessage>>.Send(ConsumeContext`1 context, IPipe`1 next) in /_/src/MassTransit/Middleware/ConsumerMessageFilter.cs:line 48
+2024-11-02 00:30:11.600 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem) in 45330.2099ms
+2024-11-02 00:30:11.607 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogError (CentralLoggerSystem)'
+2024-11-02 00:30:11.609 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogError - 200 null text/plain; charset=utf-8 45364.6361ms
+2024-11-02 00:32:02.324 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:32:02.436 +06:00 [DBG] Hosting starting
+2024-11-02 00:32:02.667 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:32:02.760 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:32:02.767 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:32:02.834 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:32:03.017 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:32:03.020 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:32:03.021 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:32:03.023 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:32:03.024 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:32:03.025 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:32:03.070 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:32:03.072 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:32:03.074 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:32:03.075 +06:00 [DBG] Hosting started
+2024-11-02 00:32:03.391 +06:00 [DBG] Connection id "0HN7QKDTJNV84" accepted.
+2024-11-02 00:32:03.394 +06:00 [DBG] Connection id "0HN7QKDTJNV84" started.
+2024-11-02 00:32:03.399 +06:00 [DBG] Connection id "0HN7QKDTJNV85" accepted.
+2024-11-02 00:32:03.402 +06:00 [DBG] Connection id "0HN7QKDTJNV85" started.
+2024-11-02 00:32:03.432 +06:00 [DBG] Connection id "0HN7QKDTJNV84" received FIN.
+2024-11-02 00:32:03.432 +06:00 [DBG] Connection id "0HN7QKDTJNV85" received FIN.
+2024-11-02 00:32:03.443 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:32:03.443 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:32:03.490 +06:00 [DBG] Connection id "0HN7QKDTJNV84" stopped.
+2024-11-02 00:32:03.490 +06:00 [DBG] Connection id "0HN7QKDTJNV85" stopped.
+2024-11-02 00:32:03.496 +06:00 [DBG] Connection id "0HN7QKDTJNV84" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:32:03.496 +06:00 [DBG] Connection id "0HN7QKDTJNV85" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:32:03.622 +06:00 [DBG] Connection id "0HN7QKDTJNV86" accepted.
+2024-11-02 00:32:03.624 +06:00 [DBG] Connection id "0HN7QKDTJNV86" started.
+2024-11-02 00:32:03.651 +06:00 [DBG] Connection 0HN7QKDTJNV86 established using the following protocol: "Tls13"
+2024-11-02 00:32:03.705 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:32:03.800 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:32:03.816 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:32:03.819 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:32:03.874 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:32:03.877 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:32:03.894 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:32:03.897 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:32:03.905 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 204.6041ms
+2024-11-02 00:32:03.913 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:32:03.913 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:32:03.935 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 22.6611ms
+2024-11-02 00:32:03.972 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.914ms
+2024-11-02 00:32:04.012 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:32:04.017 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:32:04.018 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:32:04.082 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.1736ms
+2024-11-02 00:32:05.054 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55652)
+2024-11-02 00:32:05.096 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_4yeoyyb6nknkuwzybdqxie54gf?temporary=true"
+2024-11-02 00:32:05.124 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 0
+2024-11-02 00:32:05.141 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:32:05.147 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:32:05.151 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:32:05.172 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:32:05.213 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag--61O2z_7fJGxYg4IUvi8aw
+2024-11-02 00:32:05.219 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:32:05.222 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:32:13.816 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 4
+2024-11-02 00:32:13.824 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:32:13.830 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:32:13.835 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:32:13.839 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:32:13.841 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:32:13.869 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:32:13.873 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:32:13.875 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:32:13.877 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:32:13.880 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:32:13.883 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:32:13.886 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:32:13.888 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:32:13.905 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:32:13.911 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:32:13.916 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:32:13.922 +06:00 [DBG] Connection id "0HN7QKDTJNV86", Request id "0HN7QKDTJNV86:00000009": started reading request body.
+2024-11-02 00:32:13.926 +06:00 [DBG] Connection id "0HN7QKDTJNV86", Request id "0HN7QKDTJNV86:00000009": done reading request body.
+2024-11-02 00:32:13.932 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:32:13.934 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:32:13.936 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:32:13.938 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:32:13.945 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:32:13.956 +06:00 [INF] Publishing message: {"Level":"Information","Message":"gt","Timestamp":"2024-11-01T18:32:13.9520629Z"}
+2024-11-02 00:32:14.029 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:32:14.120 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "d0110000-3e12-84a9-b815-08dcfaa3818e" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:32:14.146 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:32:14.154 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:32:14.156 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:32:14.158 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:32:14.162 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:32:14.166 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:32:14.181 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 287.366ms
+2024-11-02 00:32:14.185 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:32:16.232 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 2416.0845ms
+2024-11-02 00:32:49.287 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:32:49.396 +06:00 [DBG] Hosting starting
+2024-11-02 00:32:49.587 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:32:49.691 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:32:49.696 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:32:49.753 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:32:49.955 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:32:49.958 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:32:49.960 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:32:49.961 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:32:49.962 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:32:49.963 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:32:50.006 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:32:50.008 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:32:50.011 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:32:50.012 +06:00 [DBG] Hosting started
+2024-11-02 00:32:50.393 +06:00 [DBG] Connection id "0HN7QKEBJVOUC" accepted.
+2024-11-02 00:32:50.395 +06:00 [DBG] Connection id "0HN7QKEBJVOUC" started.
+2024-11-02 00:32:50.402 +06:00 [DBG] Connection id "0HN7QKEBJVOUD" received FIN.
+2024-11-02 00:32:50.402 +06:00 [DBG] Connection id "0HN7QKEBJVOUC" received FIN.
+2024-11-02 00:32:50.406 +06:00 [DBG] Connection id "0HN7QKEBJVOUD" accepted.
+2024-11-02 00:32:50.416 +06:00 [DBG] Connection id "0HN7QKEBJVOUD" started.
+2024-11-02 00:32:50.422 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:32:50.422 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:32:50.474 +06:00 [DBG] Connection id "0HN7QKEBJVOUD" stopped.
+2024-11-02 00:32:50.474 +06:00 [DBG] Connection id "0HN7QKEBJVOUC" stopped.
+2024-11-02 00:32:50.483 +06:00 [DBG] Connection id "0HN7QKEBJVOUC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:32:50.483 +06:00 [DBG] Connection id "0HN7QKEBJVOUD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:32:50.553 +06:00 [DBG] Connection id "0HN7QKEBJVOUE" accepted.
+2024-11-02 00:32:50.556 +06:00 [DBG] Connection id "0HN7QKEBJVOUE" started.
+2024-11-02 00:32:50.587 +06:00 [DBG] Connection 0HN7QKEBJVOUE established using the following protocol: "Tls13"
+2024-11-02 00:32:50.645 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:32:50.732 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:32:50.749 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:32:50.751 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:32:50.811 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:32:50.814 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:32:50.833 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:32:50.836 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:32:50.843 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 204.0054ms
+2024-11-02 00:32:50.845 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:32:50.851 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:32:50.863 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 18.081ms
+2024-11-02 00:32:50.907 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.381ms
+2024-11-02 00:32:50.946 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:32:50.949 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:32:50.951 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:32:51.036 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.1747ms
+2024-11-02 00:32:51.960 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55676)
+2024-11-02 00:32:51.993 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_o1dyyyb6nknk1y7obdqxiehsfh?temporary=true"
+2024-11-02 00:32:52.015 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:32:52.044 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:32:52.050 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:32:52.054 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:32:52.076 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:32:52.122 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-8ykrL9uEG8hBPtOAwCePxw
+2024-11-02 00:32:52.127 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:32:52.131 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:32:57.601 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 4
+2024-11-02 00:33:41.085 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:33:41.188 +06:00 [DBG] Hosting starting
+2024-11-02 00:33:41.395 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:33:41.477 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:33:41.482 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:33:41.541 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:33:41.717 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:33:41.719 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:33:41.720 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:33:41.721 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:33:41.723 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:33:41.724 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:33:41.765 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:33:41.767 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:33:41.768 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:33:41.769 +06:00 [DBG] Hosting started
+2024-11-02 00:33:41.930 +06:00 [DBG] Connection id "0HN7QKEQVFQ82" accepted.
+2024-11-02 00:33:41.935 +06:00 [DBG] Connection id "0HN7QKEQVFQ82" started.
+2024-11-02 00:33:41.949 +06:00 [DBG] Connection id "0HN7QKEQVFQ83" accepted.
+2024-11-02 00:33:41.951 +06:00 [DBG] Connection id "0HN7QKEQVFQ83" started.
+2024-11-02 00:33:41.965 +06:00 [DBG] Connection id "0HN7QKEQVFQ83" received FIN.
+2024-11-02 00:33:41.965 +06:00 [DBG] Connection id "0HN7QKEQVFQ82" received FIN.
+2024-11-02 00:33:41.974 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:33:41.974 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:33:42.018 +06:00 [DBG] Connection id "0HN7QKEQVFQ83" stopped.
+2024-11-02 00:33:42.018 +06:00 [DBG] Connection id "0HN7QKEQVFQ82" stopped.
+2024-11-02 00:33:42.024 +06:00 [DBG] Connection id "0HN7QKEQVFQ83" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:33:42.024 +06:00 [DBG] Connection id "0HN7QKEQVFQ82" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:33:42.135 +06:00 [DBG] Connection id "0HN7QKEQVFQ84" accepted.
+2024-11-02 00:33:42.137 +06:00 [DBG] Connection id "0HN7QKEQVFQ84" started.
+2024-11-02 00:33:42.168 +06:00 [DBG] Connection 0HN7QKEQVFQ84 established using the following protocol: "Tls13"
+2024-11-02 00:33:42.217 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:33:42.312 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:33:42.330 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:33:42.332 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:33:42.386 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:33:42.390 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:33:42.417 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:33:42.420 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:33:42.426 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 215.248ms
+2024-11-02 00:33:42.437 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:33:42.437 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:33:42.466 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 27.1079ms
+2024-11-02 00:33:42.504 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9586ms
+2024-11-02 00:33:42.547 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:33:42.550 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:33:42.552 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:33:42.634 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.0761ms
+2024-11-02 00:33:43.730 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55693)
+2024-11-02 00:33:43.768 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_8bbyyyb6nknk185mbdqxie7ir6?temporary=true"
+2024-11-02 00:33:43.783 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:33:43.803 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:33:43.810 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:33:43.815 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:33:43.836 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:33:43.879 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-fh2wF0QDp6XJCIpgD30jFg
+2024-11-02 00:33:43.885 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:33:43.890 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:33:58.799 +06:00 [INF] Received message: "d0110000-3e12-84a9-b815-08dcfaa3818e"
+2024-11-02 00:33:58.802 +06:00 [INF] Processed message: "d0110000-3e12-84a9-b815-08dcfaa3818e"
+2024-11-02 00:33:58.812 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "d0110000-3e12-84a9-b815-08dcfaa3818e" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:14.8622690")
+2024-11-02 00:34:19.595 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:34:19.605 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:34:19.609 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:34:19.611 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:34:19.615 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:34:19.617 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:34:19.644 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:34:19.647 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:34:19.649 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:34:19.650 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:34:19.654 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:34:19.657 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:34:19.660 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:34:19.662 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:34:19.679 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:34:19.683 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:34:19.687 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:34:19.693 +06:00 [DBG] Connection id "0HN7QKEQVFQ84", Request id "0HN7QKEQVFQ84:00000009": started reading request body.
+2024-11-02 00:34:19.696 +06:00 [DBG] Connection id "0HN7QKEQVFQ84", Request id "0HN7QKEQVFQ84:00000009": done reading request body.
+2024-11-02 00:34:19.699 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:34:19.700 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:34:19.702 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:34:19.704 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:34:19.710 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:34:19.716 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:34:19.7152179Z"}
+2024-11-02 00:34:19.770 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:34:23.539 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "38420000-3e12-84a9-213e-08dcfaa3cc82" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:34:23.568 +06:00 [INF] Received message: "38420000-3e12-84a9-213e-08dcfaa3cc82"
+2024-11-02 00:34:23.571 +06:00 [INF] Processed message: "38420000-3e12-84a9-213e-08dcfaa3cc82"
+2024-11-02 00:34:23.573 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "38420000-3e12-84a9-213e-08dcfaa3cc82" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:03.7813653")
+2024-11-02 00:34:23.575 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:34:23.580 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:34:23.580 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:34:23.581 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:34:23.583 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:34:23.584 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:34:23.590 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 3927.8268ms
+2024-11-02 00:34:23.592 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:34:23.595 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 3999.782ms
+2024-11-02 00:34:42.864 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:34:42.870 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:34:42.872 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:34:42.875 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:34:42.876 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:34:42.878 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:34:42.879 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:34:42.883 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:34:42.886 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:34:42.889 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:34:42.891 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:34:42.893 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:34:42.894 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:34:42.896 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:34:42.900 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:34:42.903 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:34:42.905 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:34:42.907 +06:00 [DBG] Connection id "0HN7QKEQVFQ84", Request id "0HN7QKEQVFQ84:0000000B": started reading request body.
+2024-11-02 00:34:42.908 +06:00 [DBG] Connection id "0HN7QKEQVFQ84", Request id "0HN7QKEQVFQ84:0000000B": done reading request body.
+2024-11-02 00:34:42.909 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:34:42.910 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:34:42.912 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:34:42.914 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:34:42.917 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:34:42.919 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:34:42.9195046Z"}
+2024-11-02 00:34:42.924 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "38420000-3e12-84a9-5619-08dcfaa3da52" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:34:42.926 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:34:45.747 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:34:45.753 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:35:57.554 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:35:57.653 +06:00 [DBG] Hosting starting
+2024-11-02 00:35:57.843 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:35:57.945 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:35:57.949 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:35:58.012 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:35:58.265 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:35:58.267 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:35:58.268 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:35:58.269 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:35:58.270 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:35:58.271 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:35:58.322 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:35:58.323 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:35:58.324 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:35:58.325 +06:00 [DBG] Hosting started
+2024-11-02 00:35:58.442 +06:00 [DBG] Connection id "0HN7QKG3LBUPK" accepted.
+2024-11-02 00:35:58.442 +06:00 [DBG] Connection id "0HN7QKG3LBUPL" accepted.
+2024-11-02 00:35:58.445 +06:00 [DBG] Connection id "0HN7QKG3LBUPK" started.
+2024-11-02 00:35:58.446 +06:00 [DBG] Connection id "0HN7QKG3LBUPL" started.
+2024-11-02 00:35:58.467 +06:00 [DBG] Connection id "0HN7QKG3LBUPK" received FIN.
+2024-11-02 00:35:58.467 +06:00 [DBG] Connection id "0HN7QKG3LBUPL" received FIN.
+2024-11-02 00:35:58.480 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:35:58.480 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:35:58.536 +06:00 [DBG] Connection id "0HN7QKG3LBUPL" stopped.
+2024-11-02 00:35:58.536 +06:00 [DBG] Connection id "0HN7QKG3LBUPK" stopped.
+2024-11-02 00:35:58.546 +06:00 [DBG] Connection id "0HN7QKG3LBUPL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:35:58.546 +06:00 [DBG] Connection id "0HN7QKG3LBUPK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:35:58.614 +06:00 [DBG] Connection id "0HN7QKG3LBUPM" accepted.
+2024-11-02 00:35:58.616 +06:00 [DBG] Connection id "0HN7QKG3LBUPM" started.
+2024-11-02 00:35:58.643 +06:00 [DBG] Connection 0HN7QKG3LBUPM established using the following protocol: "Tls13"
+2024-11-02 00:35:58.689 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:35:58.789 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:35:58.809 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:35:58.812 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:35:58.861 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:35:58.864 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:35:58.882 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:35:58.884 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:35:58.891 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 205.8695ms
+2024-11-02 00:35:58.899 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:35:58.899 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:35:58.929 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 30.6412ms
+2024-11-02 00:35:58.980 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.9515ms
+2024-11-02 00:35:59.038 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:35:59.042 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:35:59.044 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:35:59.130 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.3952ms
+2024-11-02 00:36:00.290 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 55903)
+2024-11-02 00:36:00.317 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_mbmoyyb6nknku4kcbdqxijyg8t?temporary=true"
+2024-11-02 00:36:00.339 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:36:00.357 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:36:00.363 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:36:00.367 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:36:00.387 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:36:00.435 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-RR2JVGdcDZ3U0WOeFzC69w
+2024-11-02 00:36:00.440 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:36:00.446 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:36:05.272 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 8
+2024-11-02 00:36:05.272 +06:00 [INF] Received message: "38420000-3e12-84a9-5619-08dcfaa3da52"
+2024-11-02 00:36:05.276 +06:00 [INF] Processed message: "38420000-3e12-84a9-5619-08dcfaa3da52"
+2024-11-02 00:36:05.279 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:36:05.283 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:36:05.287 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:36:05.288 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "38420000-3e12-84a9-5619-08dcfaa3da52" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:04.7782601")
+2024-11-02 00:36:05.291 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:36:05.293 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:36:05.316 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:36:05.322 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:36:05.324 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:36:05.327 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:36:05.329 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:36:05.331 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:36:05.335 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:36:05.338 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:36:05.353 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:36:05.357 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:36:05.360 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:36:05.364 +06:00 [DBG] Connection id "0HN7QKG3LBUPM", Request id "0HN7QKG3LBUPM:00000009": started reading request body.
+2024-11-02 00:36:05.367 +06:00 [DBG] Connection id "0HN7QKG3LBUPM", Request id "0HN7QKG3LBUPM:00000009": done reading request body.
+2024-11-02 00:36:05.371 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:36:05.373 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:36:05.375 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:36:05.376 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:36:05.384 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:36:05.391 +06:00 [INF] Publishing message: {"Level":"Information","Message":"string","Timestamp":"2024-11-01T18:36:05.3895964Z"}
+2024-11-02 00:36:05.443 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:36:05.475 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "58570000-3e12-84a9-5510-08dcfaa40b7e" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:36:06.299 +06:00 [INF] Received message: "58570000-3e12-84a9-5510-08dcfaa40b7e"
+2024-11-02 00:36:06.303 +06:00 [INF] Processed message: "58570000-3e12-84a9-5510-08dcfaa40b7e"
+2024-11-02 00:36:06.305 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "58570000-3e12-84a9-5510-08dcfaa40b7e" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.8412219")
+2024-11-02 00:36:06.308 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:36:06.312 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:36:06.313 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:36:06.314 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:36:06.316 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:36:06.318 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:36:06.323 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 987.915ms
+2024-11-02 00:36:06.328 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:36:06.332 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 1060.731ms
+2024-11-02 00:36:12.720 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 8
+2024-11-02 00:36:12.726 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:36:12.728 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:36:12.730 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:36:12.731 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:36:12.732 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:36:12.734 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:36:12.736 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:36:12.737 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:36:12.739 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:36:12.743 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:36:12.747 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:36:12.749 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:36:12.750 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:36:12.752 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:36:12.754 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:36:12.756 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:36:12.758 +06:00 [DBG] Connection id "0HN7QKG3LBUPM", Request id "0HN7QKG3LBUPM:0000000B": started reading request body.
+2024-11-02 00:36:12.760 +06:00 [DBG] Connection id "0HN7QKG3LBUPM", Request id "0HN7QKG3LBUPM:0000000B": done reading request body.
+2024-11-02 00:36:12.762 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:36:12.764 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:36:12.765 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:36:12.766 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:36:12.768 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:36:12.770 +06:00 [INF] Publishing message: {"Level":"Information","Message":"string","Timestamp":"2024-11-01T18:36:12.7702613Z"}
+2024-11-02 00:36:12.775 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "58570000-3e12-84a9-8770-08dcfaa40fe0" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:36:12.778 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:36:12.781 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:36:12.782 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:37:25.582 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:37:25.690 +06:00 [DBG] Hosting starting
+2024-11-02 00:37:25.877 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:37:26.022 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:37:26.030 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:37:26.109 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:37:26.327 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:37:26.329 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:37:26.330 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:37:26.331 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:37:26.332 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:37:26.334 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:37:26.382 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:37:26.384 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:37:26.385 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:37:26.387 +06:00 [DBG] Hosting started
+2024-11-02 00:37:26.400 +06:00 [DBG] Connection id "0HN7QKGTS6G38" accepted.
+2024-11-02 00:37:26.402 +06:00 [DBG] Connection id "0HN7QKGTS6G38" started.
+2024-11-02 00:37:26.409 +06:00 [DBG] Connection id "0HN7QKGTS6G39" accepted.
+2024-11-02 00:37:26.411 +06:00 [DBG] Connection id "0HN7QKGTS6G39" started.
+2024-11-02 00:37:26.441 +06:00 [DBG] Connection id "0HN7QKGTS6G39" received FIN.
+2024-11-02 00:37:26.441 +06:00 [DBG] Connection id "0HN7QKGTS6G38" received FIN.
+2024-11-02 00:37:26.453 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:37:26.453 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:37:26.498 +06:00 [DBG] Connection id "0HN7QKGTS6G38" stopped.
+2024-11-02 00:37:26.498 +06:00 [DBG] Connection id "0HN7QKGTS6G39" stopped.
+2024-11-02 00:37:26.503 +06:00 [DBG] Connection id "0HN7QKGTS6G39" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:37:26.503 +06:00 [DBG] Connection id "0HN7QKGTS6G38" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:37:26.664 +06:00 [DBG] Connection id "0HN7QKGTS6G3A" accepted.
+2024-11-02 00:37:26.666 +06:00 [DBG] Connection id "0HN7QKGTS6G3A" started.
+2024-11-02 00:37:26.696 +06:00 [DBG] Connection 0HN7QKGTS6G3A established using the following protocol: "Tls13"
+2024-11-02 00:37:26.758 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:37:26.860 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:37:26.879 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:37:26.880 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:37:26.933 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:37:26.937 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:37:26.956 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:37:26.958 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:37:26.964 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 214.7612ms
+2024-11-02 00:37:26.980 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:37:26.980 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:37:27.055 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 48.6571ms
+2024-11-02 00:37:27.087 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.0841ms
+2024-11-02 00:37:27.124 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:37:27.127 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:37:27.129 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:37:27.216 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.6913ms
+2024-11-02 00:37:28.320 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 56023)
+2024-11-02 00:37:28.342 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_ny3oyyb6nknk1wfhbdqxijb5dm?temporary=true"
+2024-11-02 00:37:28.359 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:37:28.383 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:37:28.390 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:37:28.394 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:37:28.414 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:37:28.458 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-y8zar-8hDzZE-Sd5I9hfng
+2024-11-02 00:37:28.463 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:37:28.466 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:38:07.136 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:38:07.231 +06:00 [DBG] Hosting starting
+2024-11-02 00:38:07.423 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:38:07.536 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:38:07.540 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:38:07.643 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:38:07.831 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:38:07.832 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:38:07.833 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:38:07.834 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:38:07.835 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:38:07.836 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:38:07.878 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:38:07.880 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:38:07.881 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:38:07.882 +06:00 [DBG] Hosting started
+2024-11-02 00:38:08.001 +06:00 [DBG] Connection id "0HN7QKHA8U5Q5" accepted.
+2024-11-02 00:38:08.001 +06:00 [DBG] Connection id "0HN7QKHA8U5Q4" accepted.
+2024-11-02 00:38:08.004 +06:00 [DBG] Connection id "0HN7QKHA8U5Q5" started.
+2024-11-02 00:38:08.005 +06:00 [DBG] Connection id "0HN7QKHA8U5Q4" started.
+2024-11-02 00:38:08.031 +06:00 [DBG] Connection id "0HN7QKHA8U5Q4" received FIN.
+2024-11-02 00:38:08.031 +06:00 [DBG] Connection id "0HN7QKHA8U5Q5" received FIN.
+2024-11-02 00:38:08.042 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:38:08.042 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:38:08.095 +06:00 [DBG] Connection id "0HN7QKHA8U5Q4" stopped.
+2024-11-02 00:38:08.095 +06:00 [DBG] Connection id "0HN7QKHA8U5Q5" stopped.
+2024-11-02 00:38:08.105 +06:00 [DBG] Connection id "0HN7QKHA8U5Q5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:38:08.105 +06:00 [DBG] Connection id "0HN7QKHA8U5Q4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:38:08.185 +06:00 [DBG] Connection id "0HN7QKHA8U5Q6" accepted.
+2024-11-02 00:38:08.187 +06:00 [DBG] Connection id "0HN7QKHA8U5Q6" started.
+2024-11-02 00:38:08.219 +06:00 [DBG] Connection 0HN7QKHA8U5Q6 established using the following protocol: "Tls13"
+2024-11-02 00:38:08.285 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:38:08.360 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:38:08.375 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:38:08.377 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:38:08.433 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:38:08.436 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:38:08.457 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:38:08.459 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:38:08.463 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 184.4502ms
+2024-11-02 00:38:08.470 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:38:08.470 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:38:08.492 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 21.8ms
+2024-11-02 00:38:08.525 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.8923ms
+2024-11-02 00:38:08.575 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:38:08.579 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:38:08.580 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:38:08.675 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.1187ms
+2024-11-02 00:38:09.850 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 56036)
+2024-11-02 00:38:09.872 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_wnqoyyb6nknkuiywbdqxijnwbq?temporary=true"
+2024-11-02 00:38:09.889 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:38:09.915 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:38:09.922 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:38:09.927 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:38:09.946 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:38:09.989 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-GqWXE-q2ORtkEXbXwmXpJQ
+2024-11-02 00:38:09.993 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:38:09.997 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:39:10.156 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:39:10.264 +06:00 [DBG] Hosting starting
+2024-11-02 00:39:10.445 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:39:10.550 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:39:10.555 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:39:10.612 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:39:10.803 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:39:10.805 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:39:10.806 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:39:10.807 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:39:10.808 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:39:10.809 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:39:10.849 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:39:10.851 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:39:10.853 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:39:10.854 +06:00 [DBG] Hosting started
+2024-11-02 00:39:10.976 +06:00 [DBG] Connection id "0HN7QKHT1GIBR" accepted.
+2024-11-02 00:39:10.976 +06:00 [DBG] Connection id "0HN7QKHT1GIBS" accepted.
+2024-11-02 00:39:10.978 +06:00 [DBG] Connection id "0HN7QKHT1GIBR" started.
+2024-11-02 00:39:10.980 +06:00 [DBG] Connection id "0HN7QKHT1GIBS" started.
+2024-11-02 00:39:10.990 +06:00 [DBG] Connection id "0HN7QKHT1GIBR" received FIN.
+2024-11-02 00:39:10.990 +06:00 [DBG] Connection id "0HN7QKHT1GIBS" received FIN.
+2024-11-02 00:39:10.998 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:39:10.998 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:39:11.042 +06:00 [DBG] Connection id "0HN7QKHT1GIBR" stopped.
+2024-11-02 00:39:11.042 +06:00 [DBG] Connection id "0HN7QKHT1GIBS" stopped.
+2024-11-02 00:39:11.051 +06:00 [DBG] Connection id "0HN7QKHT1GIBR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:39:11.051 +06:00 [DBG] Connection id "0HN7QKHT1GIBS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:39:11.136 +06:00 [DBG] Connection id "0HN7QKHT1GIBT" accepted.
+2024-11-02 00:39:11.137 +06:00 [DBG] Connection id "0HN7QKHT1GIBT" started.
+2024-11-02 00:39:11.168 +06:00 [DBG] Connection 0HN7QKHT1GIBT established using the following protocol: "Tls13"
+2024-11-02 00:39:11.215 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:39:11.293 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:39:11.310 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:39:11.313 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:39:11.364 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:39:11.369 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:39:11.385 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:39:11.388 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:39:11.392 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 181.4872ms
+2024-11-02 00:39:11.399 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:39:11.399 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:39:11.409 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 10.017ms
+2024-11-02 00:39:11.448 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.297ms
+2024-11-02 00:39:11.482 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:39:11.486 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:39:11.488 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:39:11.557 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.9319ms
+2024-11-02 00:39:12.860 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 56127)
+2024-11-02 00:39:12.891 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_rtwoyyb6nknkuoiebdqxijd3f9?temporary=true"
+2024-11-02 00:39:12.901 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:39:12.919 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:39:12.925 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:39:12.929 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:39:12.951 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:39:12.993 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-cMQGxSwXCyoC97HPNjtz8w
+2024-11-02 00:39:12.998 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:39:13.002 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:40:43.972 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-11-02 00:40:44.079 +06:00 [DBG] Hosting starting
+2024-11-02 00:40:44.255 +06:00 [INF] Configured endpoint example-queue, Consumer: CentralLoggerSystem.Consumers.LogConsumer
+2024-11-02 00:40:44.340 +06:00 [DBG] Starting bus instances: IBus
+2024-11-02 00:40:44.345 +06:00 [DBG] Starting bus: "rabbitmq://localhost/"
+2024-11-02 00:40:44.404 +06:00 [DBG] Connect: guest@localhost:5672/
+2024-11-02 00:40:44.603 +06:00 [INF] Now listening on: https://localhost:7009
+2024-11-02 00:40:44.605 +06:00 [INF] Now listening on: http://localhost:5157
+2024-11-02 00:40:44.606 +06:00 [DBG] Loaded hosting startup assembly CentralLoggerSystem
+2024-11-02 00:40:44.607 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-11-02 00:40:44.609 +06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-11-02 00:40:44.610 +06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-11-02 00:40:44.649 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-02 00:40:44.651 +06:00 [INF] Hosting environment: Development
+2024-11-02 00:40:44.653 +06:00 [INF] Content root path: D:\TestProject\CentralLoggerSystem\CentralLoggerSystem
+2024-11-02 00:40:44.654 +06:00 [DBG] Hosting started
+2024-11-02 00:40:44.907 +06:00 [DBG] Connection id "0HN7QKIP19VL2" accepted.
+2024-11-02 00:40:44.907 +06:00 [DBG] Connection id "0HN7QKIP19VL3" accepted.
+2024-11-02 00:40:44.911 +06:00 [DBG] Connection id "0HN7QKIP19VL2" started.
+2024-11-02 00:40:44.918 +06:00 [DBG] Connection id "0HN7QKIP19VL3" started.
+2024-11-02 00:40:44.918 +06:00 [DBG] Connection id "0HN7QKIP19VL3" received FIN.
+2024-11-02 00:40:44.918 +06:00 [DBG] Connection id "0HN7QKIP19VL2" received FIN.
+2024-11-02 00:40:44.933 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:40:44.933 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-11-02 00:40:44.978 +06:00 [DBG] Connection id "0HN7QKIP19VL2" stopped.
+2024-11-02 00:40:44.978 +06:00 [DBG] Connection id "0HN7QKIP19VL3" stopped.
+2024-11-02 00:40:44.985 +06:00 [DBG] Connection id "0HN7QKIP19VL2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:40:44.985 +06:00 [DBG] Connection id "0HN7QKIP19VL3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-11-02 00:40:45.059 +06:00 [DBG] Connection id "0HN7QKIP19VL4" accepted.
+2024-11-02 00:40:45.062 +06:00 [DBG] Connection id "0HN7QKIP19VL4" started.
+2024-11-02 00:40:45.097 +06:00 [DBG] Connection 0HN7QKIP19VL4 established using the following protocol: "Tls13"
+2024-11-02 00:40:45.145 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/index.html - null null
+2024-11-02 00:40:45.224 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-11-02 00:40:45.243 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-11-02 00:40:45.246 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:40:45.295 +06:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-11-02 00:40:45.298 +06:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-11-02 00:40:45.313 +06:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-11-02 00:40:45.316 +06:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-11-02 00:40:45.320 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/index.html - 200 null text/html;charset=utf-8 180.5071ms
+2024-11-02 00:40:45.328 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-02 00:40:45.328 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/_vs/browserLink - null null
+2024-11-02 00:40:45.339 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 11.123ms
+2024-11-02 00:40:45.372 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.991ms
+2024-11-02 00:40:45.414 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - null null
+2024-11-02 00:40:45.417 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-11-02 00:40:45.419 +06:00 [DBG] Request did not match any endpoints
+2024-11-02 00:40:45.491 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7009/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.1684ms
+2024-11-02 00:40:46.631 +06:00 [DBG] Connected: guest@localhost:5672/ (address: amqp://localhost:5672, local: 56168)
+2024-11-02 00:40:46.667 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/SBLPC_CentralLoggerSystem_bus_jnjoyyb6nknkuyc5bdqxijftfk?temporary=true"
+2024-11-02 00:40:46.690 +06:00 [DBG] Declare queue: name: example-queue, durable, consumer-count: 0 message-count: 1
+2024-11-02 00:40:46.718 +06:00 [DBG] Declare exchange: name: example-queue, type: fanout, durable
+2024-11-02 00:40:46.725 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:40:46.729 +06:00 [DBG] Bind queue: source: example-queue, destination: example-queue
+2024-11-02 00:40:46.749 +06:00 [DBG] Bind exchange: source: CentralLoggerSystem.Models:TextMessage, destination: example-queue
+2024-11-02 00:40:46.794 +06:00 [DBG] Consumer Ok: "rabbitmq://localhost/example-queue" - amq.ctag-86a7Y2Ug5IEdY260NkOBQg
+2024-11-02 00:40:46.799 +06:00 [DBG] Endpoint Ready: "rabbitmq://localhost/example-queue"
+2024-11-02 00:40:46.802 +06:00 [INF] Bus started: "rabbitmq://localhost/"
+2024-11-02 00:40:47.302 +06:00 [INF] Received message: "58570000-3e12-84a9-8770-08dcfaa40fe0"
+2024-11-02 00:40:47.305 +06:00 [INF] Processed message: "58570000-3e12-84a9-8770-08dcfaa40fe0"
+2024-11-02 00:40:47.316 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "58570000-3e12-84a9-8770-08dcfaa40fe0" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.4603731")
+2024-11-02 00:40:58.337 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:40:58.349 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:40:58.353 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:40:58.356 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:40:58.359 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:40:58.361 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:40:58.390 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:40:58.396 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:40:58.399 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:40:58.402 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:40:58.404 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:40:58.405 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:40:58.409 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:40:58.413 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:40:58.431 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:40:58.436 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:40:58.439 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:40:58.445 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000009": started reading request body.
+2024-11-02 00:40:58.449 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000009": done reading request body.
+2024-11-02 00:40:58.452 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:40:58.454 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:40:58.456 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:40:58.457 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:40:58.465 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:40:58.472 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:40:58.4706576Z"}
+2024-11-02 00:40:58.528 +06:00 [DBG] Declare exchange: name: CentralLoggerSystem.Models:TextMessage, type: fanout, durable
+2024-11-02 00:40:58.559 +06:00 [INF] Received message: "48930000-3e12-84a9-2f18-08dcfaa4ba2f"
+2024-11-02 00:40:58.560 +06:00 [INF] Processed message: "48930000-3e12-84a9-2f18-08dcfaa4ba2f"
+2024-11-02 00:40:58.562 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-2f18-08dcfaa4ba2f" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0099495")
+2024-11-02 00:40:58.564 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-2f18-08dcfaa4ba2f" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:40:58.576 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:40:58.581 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:40:58.583 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:40:58.584 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:40:58.586 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:40:58.587 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:40:58.593 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 182.3886ms
+2024-11-02 00:40:58.596 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:40:58.601 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 263.4224ms
+2024-11-02 00:41:00.565 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:41:00.570 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.572 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.574 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.578 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:41:00.579 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.581 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:41:00.583 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:41:00.584 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:41:00.586 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:41:00.588 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:41:00.590 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:41:00.592 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.595 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.598 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.599 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:41:00.601 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:41:00.603 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000B": started reading request body.
+2024-11-02 00:41:00.604 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000B": done reading request body.
+2024-11-02 00:41:00.605 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:41:00.606 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.609 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.612 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.615 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.617 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:41:00.6171282Z"}
+2024-11-02 00:41:00.621 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-6ad1-08dcfaa4bb72" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:41:00.623 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:41:00.629 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:41:00.629 +06:00 [INF] Received message: "48930000-3e12-84a9-6ad1-08dcfaa4bb72"
+2024-11-02 00:41:00.631 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:41:00.632 +06:00 [INF] Processed message: "48930000-3e12-84a9-6ad1-08dcfaa4bb72"
+2024-11-02 00:41:00.633 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:41:00.634 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-6ad1-08dcfaa4bb72" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0132193")
+2024-11-02 00:41:00.635 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:41:00.639 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:41:00.640 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 48.373ms
+2024-11-02 00:41:00.642 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.645 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 80.0372ms
+2024-11-02 00:41:00.755 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:41:00.759 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.761 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.762 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.763 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:41:00.764 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.765 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:41:00.767 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:41:00.768 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:41:00.770 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:41:00.772 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:41:00.773 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:41:00.775 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.778 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.780 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.781 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:41:00.783 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:41:00.784 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000D": started reading request body.
+2024-11-02 00:41:00.785 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000D": done reading request body.
+2024-11-02 00:41:00.787 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:41:00.788 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.789 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.790 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.792 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.793 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:41:00.7938029Z"}
+2024-11-02 00:41:00.798 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-69e0-08dcfaa4bb8d" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:41:00.800 +06:00 [INF] Received message: "48930000-3e12-84a9-69e0-08dcfaa4bb8d"
+2024-11-02 00:41:00.801 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:41:00.802 +06:00 [INF] Processed message: "48930000-3e12-84a9-69e0-08dcfaa4bb8d"
+2024-11-02 00:41:00.804 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:41:00.806 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:41:00.807 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:41:00.808 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:41:00.805 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-69e0-08dcfaa4bb8d" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0067168")
+2024-11-02 00:41:00.810 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:41:00.814 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 39.874ms
+2024-11-02 00:41:00.816 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.817 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 62.911ms
+2024-11-02 00:41:00.890 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:41:00.896 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.897 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:00.898 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.899 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:41:00.900 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.901 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:41:00.903 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:41:00.905 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:41:00.907 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:41:00.909 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:41:00.911 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:41:00.913 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.914 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:00.915 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.917 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:41:00.918 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:41:00.921 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000F": started reading request body.
+2024-11-02 00:41:00.922 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:0000000F": done reading request body.
+2024-11-02 00:41:00.924 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:41:00.925 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.927 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.929 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:00.930 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:41:00.932 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:41:00.9320962Z"}
+2024-11-02 00:41:00.935 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-6b21-08dcfaa4bba2" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:41:00.937 +06:00 [INF] Received message: "48930000-3e12-84a9-6b21-08dcfaa4bba2"
+2024-11-02 00:41:00.939 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:41:00.939 +06:00 [INF] Processed message: "48930000-3e12-84a9-6b21-08dcfaa4bba2"
+2024-11-02 00:41:00.942 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:41:00.944 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-6b21-08dcfaa4bba2" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0082072")
+2024-11-02 00:41:00.945 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:41:00.948 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:41:00.949 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:41:00.950 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:41:00.951 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 38.8503ms
+2024-11-02 00:41:00.953 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:00.955 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 64.9531ms
+2024-11-02 00:41:01.043 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:41:01.048 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:01.050 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:01.052 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.054 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:41:01.055 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.056 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:41:01.058 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:41:01.062 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:41:01.064 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:41:01.066 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:41:01.068 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:41:01.069 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:01.071 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:01.072 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:01.073 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:41:01.075 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:41:01.078 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000011": started reading request body.
+2024-11-02 00:41:01.081 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000011": done reading request body.
+2024-11-02 00:41:01.082 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:41:01.083 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.085 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.086 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:01.087 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.089 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:41:01.0896313Z"}
+2024-11-02 00:41:01.097 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-8a3b-08dcfaa4bbba" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:41:01.099 +06:00 [INF] Received message: "48930000-3e12-84a9-8a3b-08dcfaa4bbba"
+2024-11-02 00:41:01.101 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:41:01.102 +06:00 [INF] Processed message: "48930000-3e12-84a9-8a3b-08dcfaa4bbba"
+2024-11-02 00:41:01.104 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:41:01.105 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-8a3b-08dcfaa4bbba" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0094068")
+2024-11-02 00:41:01.106 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:41:01.113 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:41:01.114 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:41:01.116 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:41:01.118 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 48.5382ms
+2024-11-02 00:41:01.119 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.121 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 78.489ms
+2024-11-02 00:41:01.177 +06:00 [INF] Request starting HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - application/json 18
+2024-11-02 00:41:01.183 +06:00 [DBG] 1 candidate(s) found for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:01.184 +06:00 [DBG] Endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)' with route pattern 'api/Logging/LogInformaion' is valid for the request path '/api/Logging/LogInformaion'
+2024-11-02 00:41:01.186 +06:00 [DBG] Request matched endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.187 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-11-02 00:41:01.188 +06:00 [INF] Executing endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.189 +06:00 [INF] Route matched with {action = "LogInformaion", controller = "Logging"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogInformaion(System.String) on controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem).
+2024-11-02 00:41:01.191 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-11-02 00:41:01.194 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-11-02 00:41:01.195 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-11-02 00:41:01.197 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-11-02 00:41:01.199 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-11-02 00:41:01.200 +06:00 [DBG] Executing controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:01.202 +06:00 [DBG] Executed controller factory for controller CentralLoggerSystem.Controllers.LoggingController (CentralLoggerSystem)
+2024-11-02 00:41:01.203 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:01.204 +06:00 [DBG] Attempting to bind parameter 'message' of type 'System.String' using the name '' in request data ...
+2024-11-02 00:41:01.206 +06:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-11-02 00:41:01.207 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000013": started reading request body.
+2024-11-02 00:41:01.209 +06:00 [DBG] Connection id "0HN7QKIP19VL4", Request id "0HN7QKIP19VL4:00000013": done reading request body.
+2024-11-02 00:41:01.211 +06:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.String'
+2024-11-02 00:41:01.212 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.213 +06:00 [DBG] Done attempting to bind parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.215 +06:00 [DBG] Attempting to validate the bound parameter 'message' of type 'System.String' ...
+2024-11-02 00:41:01.217 +06:00 [DBG] Done attempting to validate the bound parameter 'message' of type 'System.String'.
+2024-11-02 00:41:01.218 +06:00 [INF] Publishing message: {"Level":"Information","Message":"Hello Bangladesh","Timestamp":"2024-11-01T18:41:01.2185313Z"}
+2024-11-02 00:41:01.221 +06:00 [DBG] SEND "rabbitmq://localhost/CentralLoggerSystem.Models:TextMessage" "48930000-3e12-84a9-1d84-08dcfaa4bbce" CentralLoggerSystem.Models.TextMessage
+2024-11-02 00:41:01.223 +06:00 [INF] Received message: "48930000-3e12-84a9-1d84-08dcfaa4bbce"
+2024-11-02 00:41:01.224 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-11-02 00:41:01.225 +06:00 [INF] Processed message: "48930000-3e12-84a9-1d84-08dcfaa4bbce"
+2024-11-02 00:41:01.228 +06:00 [DBG] No information found on request to perform content negotiation.
+2024-11-02 00:41:01.229 +06:00 [DBG] RECEIVE "rabbitmq://localhost/example-queue" "48930000-3e12-84a9-1d84-08dcfaa4bbce" CentralLoggerSystem.Models.TextMessage CentralLoggerSystem.Consumers.LogConsumer("00:00:00.0073095")
+2024-11-02 00:41:01.230 +06:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-11-02 00:41:01.233 +06:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-11-02 00:41:01.234 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-11-02 00:41:01.235 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-11-02 00:41:01.237 +06:00 [INF] Executed action CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem) in 36.3362ms
+2024-11-02 00:41:01.238 +06:00 [INF] Executed endpoint 'CentralLoggerSystem.Controllers.LoggingController.LogInformaion (CentralLoggerSystem)'
+2024-11-02 00:41:01.240 +06:00 [INF] Request finished HTTP/2 POST https://localhost:7009/api/Logging/LogInformaion - 200 null text/plain; charset=utf-8 63.4744ms
